@@ -159,7 +159,6 @@ function initShadersStuff() {
 
   gl.useProgram(program);
 
-
   let vertexData = new Float32Array([
     -1.0,  1.0, 	// top left
     -1.0, -1.0, 	// bottom left
