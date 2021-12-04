@@ -177,7 +177,7 @@ function initShadersStuff() {
     gl.FLOAT, // each component is a float
     false, 		// don't normalize values
     2 * 4, 		// two 4 byte float components per vertex (32 bit float is 4 bytes)
-    0 				// how many bytes inside the buffer to start from
+    0 				
     );
 
   //Get uniform handles
