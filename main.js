@@ -128,7 +128,6 @@ function compileShader(shaderSource, shaderType){
   return shader;
 }
 
-//From https://codepen.io/jlfwong/pen/GqmroZ
 function getAttribLocation(program, name) {
   let attributeLocation = gl.getAttribLocation(program, name);
   if (attributeLocation === -1) {
