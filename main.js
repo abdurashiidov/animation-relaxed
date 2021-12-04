@@ -150,7 +150,7 @@ function getUniformLocation(program, name) {
 
 function initShadersStuff() {
 
-    
+
   let vertexShader = compileShader(vertexSource, gl.VERTEX_SHADER);
   let fragmentShader = compileShader(fragmentSource, gl.FRAGMENT_SHADER);
 
@@ -410,7 +410,6 @@ function clicked() {
     canv = document.createElement('canvas');
     canv.style.position="absolute";
     document.body.appendChild(canv);
-//    canv.setAttribute('title','Move mouse horizontally and click inside canvas');
     gl = canv.getContext('webgl');
   } // canvas creation
 
