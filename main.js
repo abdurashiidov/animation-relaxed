@@ -214,7 +214,7 @@ function drawMandel(xc, yc, z) {
     return true;
 } 
 
-//---------------------------------------------------------
+
 function MandelMove(src, dest, time) {
 
     this.src = src;
