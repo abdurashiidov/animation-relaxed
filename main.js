@@ -1,6 +1,6 @@
 "use strick";
 
-const NB_ITER
+const NB_ITER = 60;
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
