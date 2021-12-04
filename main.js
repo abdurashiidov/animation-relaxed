@@ -152,7 +152,7 @@ function initShadersStuff() {
   let vertexShader = compileShader(vertexSource, gl.VERTEX_SHADER);
   let fragmentShader = compileShader(fragmentSource, gl.FRAGMENT_SHADER);
 
-  //Create shader programs
+
   let program = gl.createProgram();
   gl.attachShader(program, vertexShader);
   gl.attachShader(program, fragmentShader);
