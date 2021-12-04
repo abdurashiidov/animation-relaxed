@@ -212,7 +212,7 @@ function drawMandel(xc, yc, z) {
     gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
     
     return true;
-} // startOver
+} 
 
 //---------------------------------------------------------
 function MandelMove(src, dest, time) {
