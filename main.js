@@ -247,7 +247,7 @@ MandelMove.prototype.move = function(t) {
     const tRel = (t - this.t0);
     if (tRel > this.dest.duration) return false; 
     if (this.flat) {
-        k = tRel / this.dest.duration; // linear movement
+        k = tRel / this.dest.duration; 
     } else {
         k = this.kkexp * (1 - Math.exp(this.kexp * tRel));
     }
