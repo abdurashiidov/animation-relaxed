@@ -1,0 +1,21 @@
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+    font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+  }
+  canvas {
+    position : absolute;
+  }
+  #chg {
+      z-index: 1;
+      position: absolute;
+      left: 1em;
+      top: 1em;
+      background-color: rgba(255,255,255,0.5);
+      padding: 0.5em;
+      border-radius:0.5em;
+      color: #000;
+      cursor:pointer;
+  }
+  
