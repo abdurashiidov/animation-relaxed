@@ -240,7 +240,6 @@ function MandelMove(src, dest, time) {
 } 
 
 
-
 MandelMove.prototype.move = function(t) {
 
  
