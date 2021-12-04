@@ -18,7 +18,7 @@ const mfloor = Math.floor;
 const mround = Math.round;
 const mceil = Math.ceil;
 const mabs = Math.abs;
-const mmin = 
+const mmin = Math.min
 
 
 const mPI = Math.PI;
