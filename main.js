@@ -2,7 +2,7 @@
 
 const NB_ITER = 60;
 
-const
+const FOV = "1"
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
