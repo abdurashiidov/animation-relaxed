@@ -173,7 +173,7 @@ function initShadersStuff() {
   let positionHandle = getAttribLocation(program, 'position');
   gl.enableVertexAttribArray(positionHandle);
   gl.vertexAttribPointer(positionHandle,
-    2, 				// position is a vec2 (2 values per component)
+    2, 				
     gl.FLOAT, 
     false, 		
     2 * 4, 		
