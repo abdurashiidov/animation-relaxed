@@ -176,7 +176,7 @@ function initShadersStuff() {
     2, 				// position is a vec2 (2 values per component)
     gl.FLOAT, // each component is a float
     false, 		// don't normalize values
-    2 * 4, 		// two 4 byte float components per vertex (32 bit float is 4 bytes)
+    2 * 4, 		
     0 				
     );
 
