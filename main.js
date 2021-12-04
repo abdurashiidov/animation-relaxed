@@ -243,8 +243,6 @@ function MandelMove(src, dest, time) {
 
 MandelMove.prototype.move = function(t) {
 
-// does nothing and returns false when animation finished
-// draws and returns true before end of animation
  
     let k;
     const tRel = (t - this.t0);
