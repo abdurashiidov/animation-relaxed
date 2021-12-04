@@ -237,7 +237,7 @@ function MandelMove(src, dest, time) {
         this.flat = false;
     } else this.flat = true;
  
-} // MandelMove(src, dest, time)
+} 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
