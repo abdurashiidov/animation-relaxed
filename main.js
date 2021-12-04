@@ -8,7 +8,7 @@ let canv, gl;
 let animState;
 
 let widthHandle, heightHandle;
-let xcHandle
+let xcHandle, yc
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
