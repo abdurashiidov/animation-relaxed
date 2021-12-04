@@ -295,7 +295,7 @@ const lPOI = POI.length;
 
 let animate;
 let events = [];
-{ // scope for animate
+{ 
 
 let tStart = 0;
 let tWait;
