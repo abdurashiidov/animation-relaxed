@@ -4,7 +4,7 @@ const NB_ITER = 60;
 
 const FOV = "1.0";
 
-let canv,
+let canv, gl;
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
