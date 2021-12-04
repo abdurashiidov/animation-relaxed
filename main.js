@@ -19,7 +19,7 @@ const mround = Math.round;
 const mceil = Math.ceil;
 const mabs = Math.abs;
 const mmin = Math.min;
-const mmax = 
+const mmax = Math 
 
 
 const mPI = Math.PI;
