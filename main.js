@@ -7,7 +7,8 @@ const FOV = "1.0";
 let canv, gl;
 let animState;
 
-let widthHandle, heightHandle
+let widthHandle, heightHandle;
+let 
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
