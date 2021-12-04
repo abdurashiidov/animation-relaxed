@@ -259,7 +259,7 @@ MandelMove.prototype.move = function(t) {
       
 } 
 
-//---------------------------------------------------------
+
 
 const POI = [        // sightseeing tour stops
     {x:-0.5, y:0, z:5, duration: 4000,wait:2000},
