@@ -1,7 +1,6 @@
 "use strick";
 
 const NB_ITER = 60;
-
 const FOV = "1.0";
 
 let canv, gl;
