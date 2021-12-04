@@ -129,7 +129,6 @@ function compileShader(shaderSource, shaderType){
 }
 
 //From https://codepen.io/jlfwong/pen/GqmroZ
-//Utility to complain loudly if we fail to find the attribute/uniform
 function getAttribLocation(program, name) {
   let attributeLocation = gl.getAttribLocation(program, name);
   if (attributeLocation === -1) {
