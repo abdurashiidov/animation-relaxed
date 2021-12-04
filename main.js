@@ -392,7 +392,7 @@ function clicked() {
     document.querySelector("#xaz").style.display ="none";
 }
 
-//---------------------------------------------------------
+
 // beginning of execution
 
   {
