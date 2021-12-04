@@ -166,7 +166,6 @@ function initShadersStuff() {
      1.0, -1.0, 	// bottom right
   ]);
 
-
   let vertexDataBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, vertexDataBuffer);
   gl.bufferData(gl.ARRAY_BUFFER, vertexData, gl.STATIC_DRAW);
