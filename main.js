@@ -15,7 +15,7 @@ let timeHandle;
 
 const mrandom = Math.random;
 const mfloor = Math.floor;
-const mround = 
+const mround = Math.
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
