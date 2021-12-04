@@ -193,7 +193,7 @@ function initShadersStuff() {
 
 }
 
-//---------------------------------------------------------
+
 
 function drawMandel(xc, yc, z) {
 
