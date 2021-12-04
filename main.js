@@ -1,25 +1,4 @@
-"use strict";
 
-const NB_ITER = 60; 
-
-const FOV = "1.0"; 
- 
-let canv, gl;
-let animState;
-
-let widthHandle, heightHandle;
-let xcHandle, ycHandle, zHandle;
-let colorSchemaHandle;
-let colorSchema = 0;
-let timeHandle;
-
-const mrandom =  Math.random;
-const mfloor = Math.floor;
-const mround = Math.round;
-const mceil = Math.ceil;
-const mabs = Math.abs;
-const mmin = Math.min;
-const mmax = Math.max;
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
