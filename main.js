@@ -175,7 +175,7 @@ function initShadersStuff() {
   gl.vertexAttribPointer(positionHandle,
     2, 				// position is a vec2 (2 values per component)
     gl.FLOAT, // each component is a float
-    false, 		// don't normalize values
+    false, 		
     2 * 4, 		
     0 				
     );
