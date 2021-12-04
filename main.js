@@ -1,4 +1,4 @@
-
+"use strick"
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
