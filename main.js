@@ -9,7 +9,7 @@ let animState;
 
 let widthHandle, heightHandle;
 let xcHandle, ycHandle, zHandle;
-let 
+let colorSchemaHandle
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
