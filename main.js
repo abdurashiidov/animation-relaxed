@@ -180,7 +180,6 @@ function initShadersStuff() {
     0 				
     );
 
-  //Get uniform handles
 
   widthHandle = getUniformLocation(program, 'width');
   heightHandle = getUniformLocation(program, 'height');
