@@ -245,7 +245,7 @@ MandelMove.prototype.move = function(t) {
  
     let k;
     const tRel = (t - this.t0);
-    if (tRel > this.dest.duration) return false; // could be improved if exact final position is required
+    if (tRel > this.dest.duration) return false; 
     if (this.flat) {
         k = tRel / this.dest.duration; // linear movement
     } else {
