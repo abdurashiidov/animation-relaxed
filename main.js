@@ -257,7 +257,7 @@ MandelMove.prototype.move = function(t) {
                this.dest.z * k + this.src.z * k1);
     return true;
       
-} // MandelMove.prototype.move
+} 
 
 //---------------------------------------------------------
 
