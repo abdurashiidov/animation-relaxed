@@ -169,7 +169,7 @@ function initShadersStuff() {
   let vertexDataBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, vertexDataBuffer);
   gl.bufferData(gl.ARRAY_BUFFER, vertexData, gl.STATIC_DRAW);
-  // Layout of our data in the vertex buffer
+
   let positionHandle = getAttribLocation(program, 'position');
   gl.enableVertexAttribArray(positionHandle);
   gl.vertexAttribPointer(positionHandle,
