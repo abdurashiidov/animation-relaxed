@@ -17,7 +17,7 @@ const mrandom = Math.random;
 const mfloor = Math.floor;
 const mround = Math.round;
 const mceil = Math.ceil;
-const  
+const mabs 
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
