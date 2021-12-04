@@ -14,7 +14,8 @@ let colorSchema = 0;
 let timeHandle;
 
 const mrandom = Math.random;
-const mfloor = Math.floor
+const mfloor = Math.floor;
+
 
 const mPI = Math.PI;
 const mPIS2 = Math.PI / 2;
